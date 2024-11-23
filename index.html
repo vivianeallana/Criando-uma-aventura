@@ -1,1 +1,50 @@
-
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700&display=swap" rel="stylesheet">
+    <title>Luna, a Gatinha Curiosa</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/jardim_encantado.png" alt="Luna no jardim encantado">
+            <p>Luna, a gatinha curiosa, encontrou uma entrada secreta no jardim encantado. Ela sente que há algo mágico escondido por lá. Onde ela deve ir primeiro?</p>
+            <button class="btn-proximo" data-proximo="1">Explorar a casa na árvore</button>
+            <button class="btn-proximo" data-proximo="2">Investigar a cachoeira mágica</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/casa_na_arvore.png" alt="Casa na árvore">
+            <p>Luna sobe até a casa na árvore e encontra uma chave brilhante. Ela fica curiosa sobre o que a chave pode abrir. O que ela deve fazer?</p>
+            <button class="btn-proximo" data-proximo="3">Procurar o tesouro escondido</button>
+            <button class="btn-proximo" data-proximo="4">Descer e ir para a cachoeira</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/cachoeira_magica.png" alt="Cachoeira mágica">
+            <p>Luna chega à cachoeira mágica e vê algo brilhando sob a água. Ela se aproxima para investigar.</p>
+            <button class="btn-proximo" data-proximo="5">Mergulhar para descobrir o brilho</button>
+            <button class="btn-proximo" data-proximo="6">Voltar para o jardim encantado</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Luna encontra um baú escondido atrás de uma árvore e usa a chave brilhante para abri-lo. Dentro, ela encontra uma joia mágica! Fim da aventura!</p>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img/jardim_encantado.png" alt="Luna no jardim encantado">
+            <p>Luna desce da casa na árvore e decide explorar a cachoeira. Ela promete voltar para descobrir mais mistérios!</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="img/cachoeira_magica.png" alt="Luna na cachoeira mágica">
+            <p>Luna mergulha na água e encontra um cristal brilhante. Ela decide guardá-lo como lembrança de sua aventura. Fim da aventura!</p>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="img/jardim_encantado.png" alt="Luna no jardim encantado">
+            <p>Luna retorna ao jardim encantado e se sente satisfeita com suas descobertas. Ela está pronta para mais aventuras!</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
